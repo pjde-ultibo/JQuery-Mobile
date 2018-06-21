@@ -112,7 +112,7 @@ end;
 procedure ShowSlider;
 begin
   ConsoleWindowSetXY (Console3, 1, 10);
-  Log3 ('Slider : ' + v.ToString);
+  Log3 ('Slider : ' + v.ToString + '   ');
 end;
 
 { THTTPServer }
